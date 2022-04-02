@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'captcha-com/captcha' => array(
+            'pretty_version' => '4.2.5',
+            'version' => '4.2.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../captcha-com/captcha',
+            'aliases' => array(),
+            'reference' => '4b8b642509bfc63d2f295dccf1c1b4d0e2266a15',
+            'dev_requirement' => false,
+        ),
+        'captcha-com/symfony-captcha-bundle' => array(
+            'pretty_version' => '4.2.12',
+            'version' => '4.2.12.0',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../captcha-com/symfony-captcha-bundle',
+            'aliases' => array(),
+            'reference' => 'fd071c3f36d646ff87b591ddb3ea531c5f3678c2',
+            'dev_requirement' => false,
+        ),
+    ),
+);
